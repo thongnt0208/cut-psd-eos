@@ -1,4 +1,4 @@
-# Organic Project
+# Cut PSD EOS Project
 
 ## Hello there  :blush: 👋
 
