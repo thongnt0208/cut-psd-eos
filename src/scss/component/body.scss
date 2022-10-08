@@ -1,4 +1,142 @@
-.class1{
-    color: yellow;
-    text-align: center;
+
+/* content */
+.body-container {
+    display: flex;
+    justify-content: start;
+    font-family: 'Montserrat', sans-serif;
+
+    .content {
+        width: 40rem;
+        background-color: aqua;
+        color: #3624ea;
+
+        p.intro {
+            font-size: 10rem;
+            font-weight: bold;
+            color: aliceblue;
+
+            span {
+                color: #3624ea;
+            }
+        }
+
+        .text-box {
+            text-align: center;
+            a.btn {
+                background-color: #18f7ef;
+                text-decoration: none;
+                color: #3624ea;
+                border: solid 3px #ffffff;
+                padding: 1rem;
+            }
+        }
+    }
+
+    // .img {
+    //     width: 79.2rem;
+    //     height: auto;
+
+    //     .above {
+    //         width: 82rem;
+
+    //         img {
+    //             width: 40rem;
+    //         }
+    //     }
+
+    //     .under {
+    //         width: 82rem;
+
+    //         img {
+    //             width: 80.5rem;
+    //         }
+    //     }
+    // }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .btn:link,
+// .btn:visited {
+//     text-transform: uppercase;
+//     text-decoration: none;
+//     padding: 15px 40px;
+//     display: inline-block;
+//     border-radius: 10px;
+//     transition: all .2s;
+//     position: absolute;
+// }
+
+// .btn:hover {
+//     transform: translateY(-3px);
+//     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+// }
+
+// .btn:active {
+//     transform: translateY(-1px);
+//     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+// }
+
+// .btn-white {
+//     background-color: aqua;
+//     color: blue;
+//     border: solid 3px aliceblue;
+// }
+
+// .btn::after {
+//     content: "";
+//     display: inline-block;
+//     height: 100%;
+//     width: 100%;
+//     border-radius: 10px;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     z-index: -1;
+//     transition: all .4s;
+// }
+
+// .btn-white::after {
+//     background-color: #fff;
+// }
+
+// .btn:hover::after {
+//     transform: scaleX(1.4) scaleY(1.6);
+//     opacity: 0;
+// }
+
+// .btn-animated {
+//     animation: moveInBottom 5s ease-out;
+//     animation-fill-mode: backwards;
+// }
+
+// @keyframes moveInBottom {
+//     0% {
+//         opacity: 0;
+//         transform: translateY(30px);
+//     }
+
+//     100% {
+//         opacity: 1;
+//         transform: translateY(0px);
+//     }
+// }
