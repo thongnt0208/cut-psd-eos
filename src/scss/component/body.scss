@@ -81,6 +81,11 @@
         .left-block {
             width: 667px;
             background-color: rgb(255, 255, 255);
+            img{
+                position: relative;
+                top : 5px;
+                right: -100px;
+            }
         }
 
         .right-block { 
@@ -89,14 +94,36 @@
             background-color: rgb(54, 36, 234);
             padding: 145.5px 261px 0 348px; //145.5px = 180 - 34,5
             .content {
+                width: 100%;
                 p.title {
-                    font-size: 69px; //51.49 pt
+                    font-size: 45px; //51.49 pt
                     font-family: "Montserrat";
+                    width: 100%;
                     color: rgb(255, 255, 255);
                     font-weight: bold;
                     line-height: 2;
                     text-align: left;
                     z-index: 40;
+                }
+                p.description{
+                    color: rgb(255, 255, 255);
+                    font-size: 24px;
+                    font-family: "Montserrat";
+                    font-weight: bold;
+                    line-height: 2;
+                    text-align: left;
+                }
+                .text-box{
+                    margin: 50px 0 0 0;
+                    a.btn{
+                        font-size: 24px;
+                        font-weight: bold;
+                        background-color: rgb(54, 36, 234);
+                        text-decoration: none;
+                        color: rgb(255, 255, 255);
+                        border: solid 3px #ffffff;
+                        padding: 2rem;
+                    }
                 }
             }
         }
