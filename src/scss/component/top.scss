@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.top{
+    .container_top{
+        width: 200rem;
+        height: 119.8rem;
+        
+        .section_top{  
+            position: relative;         
+            .top-background{
+                .bg_img{
+                    background-size: cover;
+                    width: 200rem;
+                    height: 119.8rem;
+                    display: block;
+                }
+            }
+            .top-navigator{
+                position: absolute;
+                top: 13.7584%;
+                left: 60%;
+                width: 52.5rem;
+                height: 2rem;
+                .nav-menu-list{
+                    display: flex;
+                    justify-content: space-between;    
+                    .nav-menu-item{
+                        .nav-menu-link{
+                            text-decoration: none;
+                            font-size: 2.4rem;
+                            font-family: "Montserrat";
+                            color: rgb(255, 255, 255);
+                            font-weight: bold;
+                            line-height: 2;
+                            text-align: left;
+                            z-index: 8;
+                        }
+                        .nav-menu-link-w{
+                            text-decoration: none;
+                            font-size: 2.4rem;
+                            font-family: "Montserrat";
+                            color: rgb(24, 247, 239);
+                            font-weight: bold;
+                            line-height: 2;
+                            text-align: left;
+                            z-index: 8;
+                        }
+                    }
+                }
+            }
+            .top-logo{
+                position: absolute;
+                top: 10.6845%;
+                left: 13.75%;
+                .logo_img{
+                    width: 9.3rem;
+                    height: 9.3rem;
+                }
+            }
+            .content{
+                position: absolute;
+                top: 41%;
+                left: 13.25%;
+                .content-slice{
+                    width: 147rem;
+                    height: 20rem;
+                }
+            }
+            .scroll-to-see-more{
+                .text{
+                    font-size: 1.8rem;
+                    font-family: "Montserrat";
+                    color: rgb(255, 255, 255);
+                    line-height: 2.667;
+                    text-align: left;
+                    position: absolute;
+                    left: 92rem;
+                    top: 107rem;
+                    z-index: 9;
+                }
+            }
+            .mouse{
+                .mouse_img{
+                    position: absolute;
+                    top: 102rem;
+                    left: 49.5%;
+                    width: 2.5rem;
+                    height: 4rem;
+                    z-index: 10;
+                }
+            }
+            .top-fade-bottom{
+                .fade_effect{
+                    position: absolute;
+                    bottom: -0.5%;
+                    left: 0%;
+                    z-index: 0;
+                }
+            }
+        }
+    }
+}
